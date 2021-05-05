@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+  
+  .wrapper {
+    margin: auto;
+    max-width: 960px;
+    width: 100%;
+    text-align: center;
+  }
+
+   img
+  {
+      position: absolute;
+      width: 30% !important;
+      height: auto;
+      left: -120px;
+      top: -85px;
+  }
+  
+  .bmc {
+    display: grid;
+    grid: repeat(3, 200px) / repeat(10, 1fr);
+  }
+  
+  .bmc,
+  .bmc > div {
+    border: 1px solid rgb(87, 87, 87);
+    background: #fff;
+  }
+  
+  .bmc > div {
+    display: grid;
+    position: relative;
+    gap: 10px;
+    grid-template-rows: 30px;
+    grid-auto-rows: 65px;
+  }
+  
+  .bmc > div:nth-child(8),
+  .bmc > div:nth-child(9) {
+    grid: 30px / repeat(5, 1fr);
+  }
+  .bmc > div:nth-child(8) h3,
+  .bmc > div:nth-child(9) h3 {
+    grid-column: 1 / -1;
+  }
+
+  .bmc > div:nth-child(8) p,
+  .bmc > div:nth-child(9) p {
+    grid-column: 1 / -1;
+  }
+  
+  .bmc > div:nth-child(1),
+  .bmc > div:nth-child(4),
+  .bmc > div:nth-child(7) {
+    grid-area: span 2 / span 2;
+  }
+  
+  .bmc > div:nth-child(2),
+  .bmc > div:nth-child(5) {
+    grid-column: span 2;
+  }
+  
+  .bmc > div:nth-child(3) {
+    grid-column: 3 / span 2;
+    grid-row: 2;
+  }
+  
+  .bmc > div:nth-child(6) {
+    grid-column: 7 / span 2;
+    grid-row: 2;
+  }
+  
+  .bmc > div:nth-child(8),
+  .bmc > div:nth-child(9) {
+    grid-area: -2 / span 5;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: 'Noto Sans JP', sans-serif !important;
+    zoom: 95%;
+    background-color: rgb(241, 241, 241);
+    cursor:  context-menu;
+  }
+  
+.customer_seg 
+{
+    text-align: center;
+}
+
+.customer_seg h3
+{
+    background-color: rgb(207, 85, 85) !important;
+}
+
+.customer_rel
+{
+    text-align: center;
+}
+
+.customer_rel h3
+{
+    background-color: rgb(207, 85, 85) !important;
+}
+
+.channels
+{
+    text-align: center;
+}
+
+.channels h3
+{
+    background-color: rgb(207, 85, 85) !important;
+}
+
+.value_prop
+{
+    text-align: center;
+}
+
+.value_prop h3
+{
+    background-color: rgb(199, 216, 100) !important;
+}
+
+.key_reso
+{
+    text-align: center;
+}
+
+.key_reso h3
+{
+    background-color: rgb(250, 188, 107) !important;
+}
+
+
+.key_act
+{
+    text-align: center;
+}
+
+.key_act h3
+{
+    background-color: rgb(250, 188, 107) !important;
+}
+
+
+.key_act ul
+{
+    padding: 0px 4px 0px 4px;
+}
+
+.key_part
+{
+    text-align: center;
+}
+
+.key_part h3
+{
+    background-color: rgb(250, 188, 107) !important;
+}
+
+
+.key_part ul
+{
+    padding: 0px 9px 0px 9px;
+}
+
+.cost_struct
+{
+    text-align: center;
+}
+
+.cost_struct h3
+{
+    background-color: rgb(79, 166, 206) !important;
+}
+
+.rev_stream
+{
+    text-align: center;
+}
+
+.rev_stream h3
+{
+    background-color: rgb(79, 166, 206) !important;
+}
+
+
+.h3class
+{
+    font-size: 15px !important;
+    font-weight: 400;
+    padding-top: 5px !important;
+    height: 35px;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif !important;
+}
+
+li
+{
+    list-style: none;
+    line-height: 35px;
+    font-size: 14px !important;
+}
+p
+{
+    font-size: 14px !important;
+}
+  
+  img {
+    vertical-align: middle;
+    height: auto;
+    width: 100%;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(119, 119, 119);
+    color: white;
+    text-align: center;
+ }
